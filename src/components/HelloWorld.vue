@@ -84,6 +84,7 @@
       </li>
     </ul>
   </div>
+  <h3 class="heading">adas</h3>
 </template>
 
 <script>
@@ -91,6 +92,11 @@ export default {
   name: "HelloWorld",
   props: {
     msg: String,
+  },
+  methods: {
+    onConsoleTesting() {
+      console.log("asd");
+    },
   },
 };
 </script>
