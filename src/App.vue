@@ -1,6 +1,12 @@
 <template>
   <img alt="Vue logo" src="./assets/logo.png" />
-  <header-app ref="header" />
+  <header-app
+    ref="header"
+    title="This is title"
+    content="This is content"
+    theme="contact"
+  />
+  <br />
   <HelloWorld ref="hello" msg="Welcome to Your Vue.js App" />
   <button @click="onChange">Click me</button>
 </template>
